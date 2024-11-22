@@ -1,0 +1,25 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* body {
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+} */
+
+/* body {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+} */
+
+div .exterior-container {
+  margin: 10px auto;
+  width: 80%;
+  border: 2px solid black;
+  padding: 20px 10px;
+}
+
+.temperature-value {
+  font-size: 40px;
+}

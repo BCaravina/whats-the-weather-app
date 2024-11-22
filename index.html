@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What's the Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Rajdhani:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
     <style src="src/styling.css"></style>
   </head>
   <body>
     <h1>What's the weather in...</h1>
     <div class="exterior-container">
-      <form action="#" method="GET">
-        <input type="search" placeholder="What's the weather in..." />
-        <input type="submit" value="Search" />
+      <form action="#" method="GET" id="search-form">
+        <input
+          type="search"
+          class="search-field"
+          placeholder="What's the weather in..."
+        />
+        <input type="submit" class="search-button" value="Search" />
       </form>
       <hr />
       <div class="current-city-infographic-container">
