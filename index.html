@@ -9,7 +9,7 @@
   <body>
     <h1>What's the weather in...</h1>
     <div class="exterior-container">
-      <form action="GET">
+      <form action="#" method="GET">
         <input type="search" placeholder="What's the weather in..." />
         <input type="submit" value="Search" />
       </form>
@@ -17,13 +17,21 @@
       <div class="current-city-infographic-container">
         <div class="city-name">São Paulo</div>
         <div class="city-condition-description">Sunny</div>
-        <div class="city-humidity">Humidity: 75%</div>
-        <div class="city-wind-speed">Wind: 5km/h</div>
+        <span class="city-humidity">Humidity: 75%</span>
+        <span class="city-wind-speed">Wind: 5km/h</span>
       </div>
       <div class="current-city-temperature-container">
-        <div class="temperature-emoji">☀</div>
-        <div class="temperature-value">30</div>
-        <div class="temperature-unit">°C</div>
+        <span class="temperature-emoji">☀</span>
+        <span class="temperature-value">30</span>
+        <span class="temperature-unit">°C</span>
+      </div>
+      <hr />
+      <div class="week-forecast-container">
+        <span class="day-1">DAY 1 INFO</span>
+        <span class="day-2">DAY 2 INFO</span>
+        <span class="day-3">DAY 3 INFO</span>
+        <span class="day-4">DAY 4 INFO</span>
+        <span class="day-5">DAY 5 INFO</span>
       </div>
       <hr />
       <footer>
