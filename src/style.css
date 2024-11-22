@@ -1,0 +1,67 @@
+/* body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+} */
+/* body {
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
+
+.exterior-container {
+  margin: 10px auto;
+  width: 80%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+form {
+  text-align: left;
+}
+
+.search-field {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 14px;
+}
+
+.current-city-infographic-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  opacity: 80%;
+}
+
+footer a {
+  text-decoration: none;
+  transition: all 150ms ease;
+  color: black;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
