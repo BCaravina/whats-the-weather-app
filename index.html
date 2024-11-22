@@ -8,10 +8,31 @@
   </head>
   <body>
     <h1>What's the weather in...</h1>
-    <footer>
-      Page created by <a href="https://github.com/Biscatrix">Bia C.</a> on
-      <a href="#">GitHub</a> and hosted on <a href="#">Netlify</a>
-    </footer>
+    <div class="exterior-container">
+      <form action="GET">
+        <input type="search" placeholder="What's the weather in..." />
+        <input type="submit" value="Search" />
+      </form>
+      <hr />
+      <div class="current-city-infographic-container">
+        <div class="city-name">São Paulo</div>
+        <div class="city-condition-description">Sunny</div>
+        <div class="city-humidity">Humidity: 75%</div>
+        <div class="city-wind-speed">Wind: 5km/h</div>
+      </div>
+      <div class="current-city-temperature-container">
+        <div class="temperature-emoji">☀</div>
+        <div class="temperature-value">30</div>
+        <div class="temperature-unit">°C</div>
+      </div>
+      <hr />
+      <footer>
+        Page created by <a href="https://github.com/Biscatrix">Bia C.</a> on
+        <a href="https://github.com/Biscatrix/whats-the-weather-app">GitHub</a>
+        and hosted on
+        <a href="https://whats-the-weather-there.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
