@@ -30,22 +30,15 @@ function formatDate(date) {
     "Saturday",
   ];
 
-  console.log(date.getHours());
-  console.log(date.getMinutes());
-
   let hours = date.getHours();
   let minutes = date.getMinutes();
 
   if (hours < 10) {
     hours = `0${hours}`;
-  } else {
-    hours = hours;
   }
 
   if (minutes < 10) {
     minutes = `0${minutes}`;
-  } else {
-    minutes = minutes;
   }
 
   return `<strong>${weekDays[date.getDay()]}</strong> ${hours}:${minutes}`;
