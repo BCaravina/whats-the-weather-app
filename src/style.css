@@ -47,6 +47,11 @@ form {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   font-size: 15px;
+  transition: all 250ms ease-in-out;
+}
+
+.search-button:hover {
+  cursor: pointer;
 }
 
 .date-time {
@@ -65,7 +70,7 @@ form {
   text-align: left;
   margin: 0;
   font-size: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .city-details {
