@@ -76,13 +76,12 @@ form {
 .city-details {
   text-align: left;
   margin: 0;
-  line-height: 22px;
+  line-height: 25px;
   color: rgb(0, 0, 0, 0.7);
 }
 
-.city-details span {
+.city-details strong {
   color: #0077b6;
-  font-weight: bold;
 }
 
 .temperature-container {

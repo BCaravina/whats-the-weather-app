@@ -15,7 +15,11 @@
   </head>
   <body>
     <h1>What's the weather in...</h1>
-    <div class="date-time"><span class="week-day">day</span>time</div>
+
+    <div class="date-time">
+      <strong id="week-day"></strong> <span id="current-time"></span>
+    </div>
+
     <div class="exterior-container">
       <header>
         <form action="#" method="GET" id="search-form">
@@ -34,9 +38,10 @@
           <div>
             <h2 class="city-name"></h2>
             <p class="city-details">
-              <p id="current-condition">Sunny</p>
+              <span id="current-condition"></span>
               <br />
-              <p>Humidity: <span>66%</span></p>, <p>Wind: <span>3.13km/h</span></p>
+              <span>Humidity: <strong id="humidity"></strong></span>,
+              <span>Wind: <strong id="wind-speed"></strong></span>
             </p>
           </div>
           <div class="temperature-container">

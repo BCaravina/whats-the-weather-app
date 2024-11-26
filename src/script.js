@@ -1,6 +1,6 @@
 function setHour() {
-  let hoursMinutes = document.querySelector(".date-time");
-  let weekDay = document.querySelector(".week-day");
+  let weekDay = document.querySelector("#week-day");
+  let currentTime = document.querySelector("#current-time");
   let now = new Date();
   let weekDays = [
     "Sunday",
@@ -28,25 +28,23 @@ function setHour() {
   }
 
   weekDay.innerHTML = `${weekDays[now.getDay()]}`;
-  hoursMinutes.innerHTML = `${hours}:${minutes}`;
+  currentTime.innerHTML = `${hours}:${minutes}`;
 }
 
 function refreshWeatherData(response) {
-  console.log(response.data);
-  console.log(response.data.temperature.current);
-  console.log(response.data.condition.description);
-  console.log(response.data.temperature.humidity);
-  console.log(response.data.wind.speed);
-
   let cityName = document.querySelector(".city-name");
   let temperatureValue = document.querySelector(".temperature-value");
   let currentConditions = document.querySelector("#current-condition");
-  // let humidity = document.querySelector();
-  // let windSpeed = document.querySelector();
+  let currentConditionsData = response.data.condition.description;
+  let humidity = document.querySelector("#humidity");
+  let windSpeed = document.querySelector("#wind-speed");
 
   cityName.innerHTML = response.data.city;
   temperatureValue.innerHTML = Math.round(response.data.temperature.current);
-  currentConditions.innerHTML = response.data.condition.description;
+  currentConditions.innerHTML =
+    currentConditionsData[0].toUpperCase() + currentConditionsData.slice(1);
+  humidity.innerHTML = `${response.data.temperature.humidity}%`;
+  windSpeed.innerHTML = `${response.data.wind.speed.toFixed(1)}km/h`;
 }
 
 function searchCity(city) {
