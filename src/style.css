@@ -90,18 +90,18 @@ form {
 }
 
 .temperature-emoji {
-  font-size: 25px;
-  margin-top: 8px;
-  margin-right: 5px;
+  width: 60px;
+  height: 60px;
 }
+
 .temperature-value {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
+  line-height: 1;
 }
 .temperature-unit {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
-  margin-top: 8px;
   margin-left: 3px;
 }
 
