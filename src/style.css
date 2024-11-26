@@ -54,7 +54,7 @@ form {
   cursor: pointer;
 }
 
-.date-time {
+#date-time {
   display: block;
   margin-left: 550px;
   margin-bottom: 0;
