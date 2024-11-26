@@ -14,7 +14,10 @@ function refreshWeatherData(response) {
     currentConditionsData[0].toUpperCase() + currentConditionsData.slice(1);
   humidity.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeed.innerHTML = `${response.data.wind.speed.toFixed(1)}km/h`;
+  dateTime.innerHTML = formatDate(date);
+}
 
+function formatDate(date) {
   let weekDays = [
     "Sunday",
     "Monday",
@@ -39,7 +42,7 @@ function refreshWeatherData(response) {
     minutes = minutes;
   }
 
-  dateTime.innerHTML = `<strong>${
+  return `<strong>${
     weekDays[date.getDay()]
   }</strong> ${date.getHours()}:${date.getMinutes()}`;
 }
