@@ -14,19 +14,21 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div id="date-time"></div>
     <div class="exterior-container">
       <header>
-        <form action="#" method="GET" id="search-form">
-          <input
-            type="search"
-            class="search-field"
-            id="search-input"
-            placeholder="What's the weather in..."
-            required
-          />
-          <input type="submit" class="search-button" value="Search" />
-        </form>
+        <div class="header-container">
+          <form action="#" method="GET" id="search-form">
+            <input
+              type="search"
+              class="search-field"
+              id="search-input"
+              placeholder="What's the weather in..."
+              required
+            />
+            <input type="submit" class="search-button" value="Search" />
+          </form>
+          <div id="date-time"></div>
+        </div>
       </header>
       <main>
         <div class="weather-container">
@@ -45,14 +47,15 @@
             <div class="temperature-unit">°C</div>
           </div>
         </div>
-
-        <!-- <div class="forecast-container">
-          <div class="days day-1">DAY 1 INFO</div>
-          <div class="days day-2">DAY 2 INFO</div>
-          <div class="days day-3">DAY 3 INFO</div>
-          <div class="days day-4">DAY 4 INFO</div>
-          <div class="days day-5">DAY 5 INFO</div>
-        </div> -->
+        <ul class="forecast-container" id="forecast-list">
+          <li class="days"></li>
+          <li class="days"></li>
+          <li class="days"></li>
+          <li class="days"></li>
+          <li class="days"></li>
+          <li class="days"></li>
+          <li class="days"></li>
+        </ul>
       </main>
       <footer>
         Page created by
