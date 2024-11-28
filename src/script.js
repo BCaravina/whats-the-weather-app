@@ -48,7 +48,7 @@ function refreshWeatherData(response) {
   let windSpeed = document.querySelector("#wind-speed");
   let dateTime = document.querySelector("#date-time");
   let date = new Date(response.data.time * 1000);
-  let iconElement = document.querySelector(".temperature-emoji");
+  let iconElement = document.querySelector(".temperature-icon");
 
   cityName.innerHTML = response.data.city;
   temperatureValue.innerHTML = Math.round(response.data.temperature.current);

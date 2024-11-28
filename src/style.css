@@ -8,7 +8,7 @@ body {
 }
 
 .exterior-container {
-  margin: 10px auto;
+  margin: 60px auto;
   max-width: 650px;
   background: white;
   border: 2px solid #01497c;
@@ -35,6 +35,7 @@ form {
   border: none;
   border-radius: 5px;
   height: 40px;
+  width: max-content;
 }
 
 .search-button {
@@ -55,8 +56,11 @@ form {
   cursor: pointer;
 }
 
+#date-time {
+  font-size: 20px;
+}
+
 #date-time strong {
-  font-size: 18px;
   color: #01497c;
 }
 
@@ -92,9 +96,9 @@ form {
   justify-content: space-evenly;
 }
 
-.temperature-emoji {
-  width: 80px;
-  height: 80px;
+.temperature-icon {
+  width: 88px;
+  height: 88px;
 }
 
 .temperature-value {
@@ -123,19 +127,24 @@ form {
 .days {
   border: 0.5px solid #01497c;
   border-radius: 10px;
-  padding: 3.5px;
-  font-size: 14px;
-  line-height: 20px;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 #forecast-list .forecast-day {
   font-weight: bold;
   color: #01497c;
+  font-size: 18px;
 }
 
 #forecast-list .forecast-icon {
-  width: 80px;
-  height: 80px;
+  width: 88px;
+  height: 88px;
+}
+
+#forecast-list .forecast-temp {
+  font-size: 18px;
 }
 
 #forecast-list span {
@@ -143,11 +152,11 @@ form {
 }
 
 #forecast-list .forecast-humidity {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #forecast-list .forecast-wind-speed {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 #forecast-list strong {
