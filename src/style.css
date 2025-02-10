@@ -4,14 +4,14 @@ body {
   font-style: normal;
   font-weight: 300;
   text-align: center;
-  background: #a9d6e5;
+  background: #5b99c272;
 }
 
 .exterior-container {
   margin: 60px auto;
   max-width: 650px;
   background: white;
-  border: 2px solid #01497c;
+  border: 2px solid #1a4870df;
   border-radius: 15px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -31,7 +31,8 @@ form {
 .search-field {
   font-size: 15px;
   padding: 10px;
-  background: rgb(202, 240, 248, 0.5);
+  background: #5b99c243;
+  /* background: rgb(202, 240, 248, 0.5); */
   border: none;
   border-radius: 5px;
   height: 40px;
@@ -42,8 +43,8 @@ form {
   padding: 5px 15px;
   margin-left: 5px;
   height: 38px;
-  color: #01497c;
-  background: #a9d6e5;
+  color: #1a4870df;
+  background: #5b99c243;
   font-weight: 700;
   border: none;
   border-radius: 5px;
@@ -61,14 +62,14 @@ form {
 }
 
 #date-time strong {
-  color: #01497c;
+  color: #1a4870df;
 }
 
 .weather-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px solid #01497c;
-  border-top: 0.5px solid #01497c;
+  border-bottom: 0.5px solid #1a4870df;
+  border-top: 0.5px solid #1a4870df;
   padding: 20px 10px;
 }
 
@@ -76,7 +77,7 @@ form {
   text-align: left;
   margin: 0;
   font-size: 50px;
-  color: #01497c;
+  color: #1a4870df;
 }
 
 .city-details {
@@ -88,7 +89,7 @@ form {
 }
 
 .city-details strong {
-  color: #01497c;
+  color: #1a4870df;
 }
 
 .temperature-container {
@@ -106,14 +107,14 @@ form {
   font-weight: 600;
   line-height: 1;
   margin-top: 6px;
-  color: #01497c;
+  color: #1a4870df;
 }
 .temperature-unit {
   font-size: 25px;
   font-weight: 500;
   margin-left: 3px;
   margin-top: 5px;
-  color: #01497c;
+  color: #1a4870df;
 }
 
 .forecast-container {
@@ -125,7 +126,7 @@ form {
 }
 
 .days {
-  border: 0.5px solid #01497c;
+  border: 0.5px solid #1a4870df;
   border-radius: 10px;
   padding: 10px;
   font-size: 15px;
@@ -134,7 +135,7 @@ form {
 
 #forecast-list .forecast-day {
   font-weight: bold;
-  color: #01497c;
+  color: #1a4870df;
   font-size: 18px;
 }
 
@@ -160,7 +161,7 @@ form {
 }
 
 #forecast-list strong {
-  color: #01497c;
+  color: #1a4870df;
 }
 
 footer {
@@ -168,14 +169,14 @@ footer {
   font-size: 11px;
   color: black;
   opacity: 80%;
-  border-top: 0.5px solid #01497c;
+  border-top: 0.5px solid #1a4870df;
   padding: 8px 0 0 0;
 }
 
 footer a {
   text-decoration: none;
   transition: all 150ms ease;
-  color: #01497c;
+  color: #1a4870df;
   font-weight: bold;
 }
 
